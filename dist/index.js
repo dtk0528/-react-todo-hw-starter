@@ -88,7 +88,7 @@ var TodoApp = function (_Component) {
     };
 
     _this.state = {
-      todos: [{ value: 'todo sample item 1', done: false }],
+      todos: [{ value: 'Web Programming HW1', done: false }, { value: 'Machine Learning HW3', done: false }, { value: 'Eat', done: true }, { value: 'Sleep', done: true }],
       inputText: ''
     };
     return _this;
